@@ -1,0 +1,461 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+     <link rel="icon" href="icon/logo.png">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/seller.css">
+   <link rel="stylesheet" type="text/css" href="css/footer.css">
+    <link rel="stylesheet" href="fontawesome/css/all.min.css">
+
+    <title>add Product</title>
+    <style type="text/css">
+       /*[class^=col]{border:1px solid red;}*/
+ 
+
+
+    </style>
+  </head>
+  <body >
+
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top" id="navbar-header"  >
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <a class="navbar-brand" href="#" >
+        <img src="icon/logo.png" width="50" height="50" class="d-inline-block align-middle" alt="">
+        <span class="menu-collapsed">dn70</span>
+      </a>
+
+      <form class="form-group  col-sm-6 col-md-6 mt-3  offset-md-1 offset-sm-0">
+        <div class="input-group" >
+          <input type="text" class="form-control" placeholder="Search">
+          <div class="btn btn-secondary" type="button">
+          <i class="fas fa-search text-white"></i>
+          </div>
+        </div>
+      </form>
+
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span ><img src="icon/029.jpg" width="30" height="30"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbar">
+        <ul class="navbar-nav" > 
+          <li class="nav-item dropdown d-sm-block d-md-none">
+            <a href="#submenu1" data-toggle="collapse" aria-expanded="false" class="bg-liht list-group-item list-group-item-action flex-column align-items-start">
+              <div class="d-flex w-100 justify-content-start align-items-center">
+                <span class="fas fa-user fa-fw mr-3"></span>
+                <span class="menu-collapsed">Lihat Profil</span>
+                </div>
+            </a>
+          </li>
+          <li class="nav-item dropdown d-sm-block d-md-none">
+            <a href="" data-toggle="collapse" aria-expanded="false" class="bg-light list-group-item list-group-item-action flex-column align-items-start">
+              <div class="d-flex w-100 justify-content-start align-items-center">
+                <span class="fas fa-bell fa-fw mr-3"></span>
+                <span class="menu-collapsed"> Notifikasi</span>
+                </div>
+            </a>
+          </li>
+          <li class="nav-item dropdown d-sm-block d-md-none bg-light list-group-item list-group-item-action ">
+              <a class="dropdown-item" href="indeks.html"><i class="fas fa-sign-out-alt fa-fw mr-3 " id="logout"></i>Logout</a>
+
+          </li>
+        </ul>
+      </div>
+  
+
+      <div class="collapse navbar-collapse" >
+        <ul class="navbar-nav mr-auto" >
+        <li class="nav-item dropdown" >
+          <a class="nav-link dropdown-toggle text-dark" href="#" role="button"
+          data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><img src="icon/029.jpg " class="d-inline-block align-middle" width="30" height="30" class="mt-2">&nbsp; William Napitupulu</a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="#"><i class="fas fa-user fa-fw mr-2"></i>Lihat Profil</a>
+          <a class="dropdown-item" href="#"><i class="fas fa-bell fa-fw mr-2"></i>Notifikasi</a>
+          <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="login_seller.html"><i class="fas fa-sign-out-alt fa-fw mr-2"></i>Logout</a>
+          </div>
+        </li>
+        </ul>
+      </div>
+
+
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav"> 
+          <li class="nav-item dropdown d-sm-block d-md-none">
+
+            <a href="#submenu1" data-toggle="collapse" aria-expanded="false" class="bg-liht list-group-item list-group-item-action flex-column align-items-start"  >
+              <div class="d-flex w-100 justify-content-start align-items-center">
+                <span class="fas fa-home mr-3"></span>
+                <span class="menu-collapsed">Homee</span>
+                </div>
+            </a>
+
+            <a href="#submenu2" data-toggle="collapse" aria-expanded="false" class="bg-light list-group-item list-group-item-action flex-column align-items-start">
+              <div class="d-flex w-100 justify-content-start align-items-center">
+                <span class="fas fa-sort-amount-down-alt mr-3"></span>
+                <span class="menu-collapsed">Order</span>
+                <span class="fas fa-sort-down ml-auto"></span>
+              </div>
+            </a>
+              <div id='submenu2' class="collapse sidebar-submenu">
+                  <a href="#" class="list-group-item list-group-item-action bg-dark text-white">
+                      <span class="menu-collapsed">Settings</span>
+                  </a>
+                  <a href="#" class="list-group-item list-group-item-action bg-dark text-white">
+                      <span class="menu-collapsed">Password</span>
+                  </a>
+              </div>
+                
+                <a  href="#submenu9" data-toggle="collapse" aria-expanded="false" id="pengaturan_collpse" class="bg-light list-group-item list-group-item-action flex-column align-items-start ">
+                  <div class="d-flex w-100 justify-content-start align-items-center">
+                      <span class="fas fa-cog mr-3"></span>
+                      <span class="menu-collapsed">Setting</span>
+                      
+                  </div>
+              </a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+
+
+
+    <div class="row" id="body-row">
+        <div id="sidebar-container" class="sidebar-expanded d-none d-md-block">
+            <ul class="list-group"  id="pengaturan">
+                <li class="list-group-item sidebar-separator-title text-muted d-flex align-items-center menu-collapsed">
+                    <small>MAIN MENU</small>
+                </li>
+
+                <a href="#submenu1" data-toggle="collapse" aria-expanded="false" class="bg-dark list-group-item list-group-item-action flex-column align-items-start">
+                    <div class="d-flex w-100 justify-content-start align-items-center">
+                        <span class="fas fa-home mr-3"></span>
+                        <span class="menu-collapsed">Home</span>
+                        
+                    </div>
+                </a>
+                  
+
+                <a href="#submenu2" data-toggle="collapse" aria-expanded="false" class="bg-dark list-group-item list-group-item-action flex-column align-items-start">
+                    <div class="d-flex w-100 justify-content-start align-items-center">
+                        <span class="fas fa-sort-amount-down-alt mr-3"></span>
+                        <span class="menu-collapsed">Order</span>
+                        <span class="fas fa-sort-down ml-auto"></span>
+                    </div>
+                </a>
+                  <div id='submenu2' class="collapse sidebar-submenu">
+                      <a href="#" class="list-group-item list-group-item-action bg-dark text-white">
+                          <span class="menu-collapsed">Settings</span>
+                      </a>
+                      <a href="#" class="list-group-item list-group-item-action bg-dark text-white">
+                          <span class="menu-collapsed">Password</span>
+                      </a>
+                  </div>
+
+                <a href="#submenu3" data-toggle="collapse" aria-expanded="false" class="bg-dark list-group-item list-group-item-action flex-column align-items-start">
+                    <div class="d-flex w-100 justify-content-start align-items-center">
+                        <span class="fab fa-product-hunt mr-3"></span>
+                        <span class="menu-collapsed">Product</span>
+                        <span class="fas fa-sort-down ml-auto"></span>
+                    </div>
+                </a>
+                  <div id='submenu3' class="collapse sidebar-submenu">
+                      <a href="#" class="list-group-item list-group-item-action bg-dark text-white">
+                          <span class="menu-collapsed ml-3">All Product</span>
+                      </a>
+                      <a href="#" class="list-group-item list-group-item-action bg-dark text-white">
+                          <span class="menu-collapsed ml-3" >Inventory</span>
+                      </a>
+                  </div>  
+
+
+                  <a href="#submenu4" data-toggle="collapse" aria-expanded="false" class="bg-dark list-group-item list-group-item-action flex-column align-items-start">
+                    <div class="d-flex w-100 justify-content-start align-items-center">
+                        <span class="fas fa-users mr-3"></span>
+                        <span class="menu-collapsed">Customer</span>
+                      
+                    </div>
+                </a>
+                  
+
+
+                  <a href="#submenu5" data-toggle="collapse" aria-expanded="false" class="bg-dark list-group-item list-group-item-action flex-column align-items-start">
+                    <div class="d-flex w-100 justify-content-start align-items-center">
+                        <span class="fas fa-chart-line mr-3"></span>
+                        <span class="menu-collapsed">Analytics</span>
+                        <span class="fas fa-sort-down ml-auto"></span>
+                    </div>
+                </a>
+                  <div id='submenu5' class="collapse sidebar-submenu">
+                      <a href="#" class="list-group-item list-group-item-action bg-dark text-white">
+                          <span class="menu-collapsed">Charts</span>
+                      </a>
+                      <a href="#" class="list-group-item list-group-item-action bg-dark text-white">
+                          <span class="menu-collapsed">Reports</span>
+                      </a>
+                      <a href="#" class="list-group-item list-group-item-action bg-dark text-white">
+                          <span class="menu-collapsed">Tables</span>
+                      </a>
+                  </div>
+
+                  <a href="#submenu6" data-toggle="collapse" aria-expanded="false" class="bg-dark list-group-item list-group-item-action flex-column align-items-start">
+                    <div class="d-flex w-100 justify-content-start align-items-center">
+                        <span class="fas fa-tachometer-alt mr-3"></span>
+                        <span class="menu-collapsed">Marketing</span>
+                        <span class="fas fa-sort-down ml-auto"></span>
+                    </div>
+                </a>
+                  <div id='submenu6' class="collapse sidebar-submenu">
+                      <a href="#" class="list-group-item list-group-item-action bg-dark text-white">
+                          <span class="menu-collapsed">Charts</span>
+                      </a>
+                      <a href="#" class="list-group-item list-group-item-action bg-dark text-white">
+                          <span class="menu-collapsed">Reports</span>
+                      </a>
+                      <a href="#" class="list-group-item list-group-item-action bg-dark text-white">
+                          <span class="menu-collapsed">Tables</span>
+                      </a>
+                  </div>
+
+                  <a href="#submenu7" data-toggle="collapse" aria-expanded="false" class="bg-dark list-group-item list-group-item-action flex-column align-items-start">
+                    <div class="d-flex w-100 justify-content-start align-items-center">
+                        <span class="fas fa-tachometer-alt mr-3"></span>
+                        <span class="menu-collapsed">Discount</span>
+                        <span class="fas fa-sort-down ml-auto"></span>
+                    </div>
+                </a>
+                  <div id='submenu7' class="collapse sidebar-submenu">
+                      <a href="#" class="list-group-item list-group-item-action bg-dark text-white">
+                          <span class="menu-collapsed">Charts</span>
+                      </a>
+                      <a href="#" class="list-group-item list-group-item-action bg-dark text-white">
+                          <span class="menu-collapsed">Reports</span>
+                      </a>
+                      <a href="#" class="list-group-item list-group-item-action bg-dark text-white">
+                          <span class="menu-collapsed">Tables</span>
+                      </a>
+                  </div>
+
+                  <li class="list-group-item sidebar-separator-title text-muted d-flex align-items-center menu-collapsed">
+                    <small>Sales</small>
+                </li>
+                <a href="#submenu8" data-toggle="collapse" aria-expanded="false" class="bg-dark list-group-item list-group-item-action flex-column align-items-start">
+                    <div class="d-flex w-100 justify-content-start align-items-center">
+                        <span class="fas fa-tachometer-alt mr-3"></span>
+                        <span class="menu-collapsed">Store</span>
+                        <span class="fas fa-sort-down ml-auto"></span>
+                    </div>
+                </a>
+                  <div id='submenu8' class="collapse sidebar-submenu">
+                      <a href="#" class="list-group-item list-group-item-action bg-dark text-white">
+                          <span class="menu-collapsed">Charts</span>
+                      </a>
+                      <a href="#" class="list-group-item list-group-item-action bg-dark text-white">
+                          <span class="menu-collapsed">Reports</span>
+                      </a>
+                      <a href="#" class="list-group-item list-group-item-action bg-dark text-white">
+                          <span class="menu-collapsed">Tables</span>
+                      </a>
+                  </div>
+                  <a  href="#submenu9" data-toggle="collapse" aria-expanded="false" id="pengaturan" class="bg-dark list-group-item list-group-item-action flex-column align-items-start mt-5">
+                    <div class="d-flex w-100 justify-content-start align-items-center">
+                        <span class="fas fa-cog mr-3"></span>
+                        <span class="menu-collapsed">Setting</span>
+                        
+                    </div>
+                </a>
+            </ul>
+        </div> 
+
+       
+        <div class="col">
+          <div class="row mt-3 " id="content " >
+            <div class="col-md-7 col-sm-12 "  >
+              <span><a href=""><i class="fas fa-chevron-left"></i>Product</a></span>
+              <h3>Add Product</h3>
+
+	              <form role="form" >
+	                <div class="header" >
+	                  <div class="form-group" >
+	                    <label>Title</label>
+	                    <input type="text" name="" >
+	                  </div>
+	                  <div class="form-group" >
+	                    <label>Description</label>
+	                    <textarea class="ckeditor" id="ckeditor"></textarea>
+	                  </div>
+	                </div>
+
+	                <div class="row" id="meven" >
+	                  
+	                    <div class="col-md-2 col-sm-2">
+	                      Media
+	                    </div>
+	                    <div class="col-md-3 col-sm-3 offset-md-7 offset-sm-7">
+	                      add media
+	                    </div>
+	                 
+	                  <div class="form-group mt-1" id="file" >
+	                   
+	                      <input type="file" class="form-control-file" id="exsampleFormControlFile1">
+	                    </div>
+	                  </div>
+
+
+	                  <div class="Inventory" id="meven">
+	                    <label> Inventory</label>
+
+	                    <div class="row"> 
+	                     <div class="col-md-6 col-sm-6" >
+	                       <label>No Unit</label>
+	                     </div>
+	                     <div class="col-md-6 col-sm-6">
+	                        <label>Barcode</label>
+	                     </div>
+	                     <div class="col-md-6 col-sm-6">
+	                      <input type="text" name="" >
+	                     </div>
+	                     <div class="col-md-6 col-sm-6">
+	                        <input type="text" name="" >
+	                     </div>
+
+	                  </div>
+	                  <input type="checkbox" name="Pagi" > Continue Selling when out of stock
+	                  <hr>
+	                  <label>Quantity</label><br>
+	                  <input type="number" name="">
+	                </div>
+
+	                <div class="header">
+	                  <div class="form-group" id="form-group" >
+	                    Shiping & Variant
+	                    <div class="form-group mt-1" id="input1">
+	                      <label >Size</label>
+	                      <input  type="text" name="" >
+	                      <span>ex : XL XXL</span>
+	                    </div>
+	                    <div class="form-group" id="input2">
+	                      <label >Weight</label>
+	                      <input  type="text" name="" style="width: 50%; margin-left: 2em;">
+	                      <select size="1">
+	                        <option>kg</option>
+	                        <option>ons</option>
+	                        <option selected="selected">gr</option>
+	                      </select>
+	                    </div>
+	                  </div>
+	                </div> 
+	              </form>
+            </div>
+
+            <div class="col-md-4" style="margin-top: 4em;" >
+        		<form> 
+        			<div class="group" >
+	        			<h5>Organization</h5>
+	        			<label>Product type</label>
+	        			<input type="text" name="" >	
+	        			<label>Vendor</label>
+	        			<input type="text" name=""  >
+        			</div>
+        			<div class="group" >
+	        			<label>Collection</label>
+	        			<input type="text" name=""  >	
+	        			<label>Tags</label>
+	        			<input type="text" name=""  >
+        			</div>
+        		</form>
+        	</div>
+          </div> 
+
+          <div class="col-md-7">
+	          <hr>
+	          <button  type="submit" class="btn btn-primary mt-3 mb-5">Save</button>
+	          </div>
+        </div>
+    </div>
+
+    <footer>
+      <div class="row footer bg-dark text-light mt-5" >
+        <div class="col-md-2 col-sm-6">
+          <h5 class="font-weight-bold">Layanan Pelanggan</h5>
+          <hr class="mt-0 mb-0">
+          <ul class="navbar-nav">
+            <li><a href="">Pusat Bantuan</a></li>
+            <li><a href="">FAQ</a></li>
+            <li><a href="">Retur</a></li>
+            <li><a href="">Jasa Pengiriman</a></li>
+            <li><a href="">Cara Pembayaran</a></li>
+          </ul>
+        </div>
+
+
+
+        <div class="col-md-2 col-sm-6">
+          <h5 class="font-weight-bold">Tentang Kami</h5>
+          <hr class="mt-0 mb-0">
+          <ul class="navbar-nav">
+            <li><a href="">About</a></li>
+            <li><a href="">Lisesi</a></li>
+            <li><a href="">Seller</a></li>
+            <li><a href="">Keamanan</a></li>
+            <li><a href="">Karir</a></li>
+            <li><a href="">Syarat &#38; Ketentuan</a></li>
+          </ul>
+        </div>
+
+        <div class=" footer col-md-3 col-sm-6 mt-md-0 mt-sm-3">
+          <h5 class="font-weight-bold">Jasa Pengirman</h5>
+          <hr class="mt-0 mb-1">
+            <img src="icon/dhll.jfif">
+            <img src="icon/gosend.png">
+            <img src="icon/grab.png">
+            <img src="icon/jne.png">
+            <img src="icon/jnt.png">
+            <img src="icon/sicepat.png">
+            <img src="icon/tiki.png">
+            <img src="icon/pos.png">
+        </div>
+        <div class="col-md-4 col-sm-6 mt-md-0 mt-sm-3">         
+          <h5>Cara Pembayaran</h5>
+          <hr class="mt-0 mb-1">
+            <img src="icon/mastercard.png">
+            <img src="icon/visa.png">
+            
+    
+          <div class="bottom mt-3">
+            <h4 class="font-weight-bold" >Download Gratis Aplikasi dn70<br>Sekarang Juga!</h4>
+            <a class="brand" href=""><img src="icon/badge-app-store.png.webp"></a>
+            <a class="brand" href=""><img src="icon/badge-google-play.png.webp"></a>
+          </div>
+        </div>
+      
+        <div class="col-md-12 text-sm-center" id="bottom">
+      <hr >
+        <img class="float-left" src="icon/indo.png">
+        <img class="float-left" src="icon/thailand.png">
+        <img class="float-left" src="icon/viet.png">
+        <img class="float-left" src="icon/singapur.png">
+        <span>Copyrigth &copy; dn70. All Right Reserved</span> 
+        </div>
+        </footer>
+
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS --> 
+    <script src="bootstrap/js/jquery.min.js"></script>
+    <script src="bootstrap/js/popper.min.js"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+    <script src="bootstrap/ckeditor/ckeditor.js"></script>
+  </body>
+</html>
